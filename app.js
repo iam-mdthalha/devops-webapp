@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
                 <div class="container">
                     <h1>🚀 DevOps CI/CD Pipeline</h1>
                     <p>Successfully Deployed!</p>
-                    <p>Version: 1.0.0</p>
+                    <p>Version: 2.0.0</p>
                 </div>
             </body>
         </html>
