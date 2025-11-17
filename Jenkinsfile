@@ -55,7 +55,7 @@ pipeline {
                     sh """
                         ssh -o StrictHostKeyChecking=no ubuntu@${PROD_SERVER} '
                             # Download deployment script
-                            curl -o deploy.sh https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/devops-webapp/main/deploy.sh
+                            curl -o deploy.sh https://raw.githubusercontent.com/iam-mdthalha/devops-webapp/main/deploy.sh
                             chmod +x deploy.sh
                             
                             # Run deployment
