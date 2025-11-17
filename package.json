@@ -1,0 +1,16 @@
+{
+  "name": "devops-webapp",
+  "version": "1.0.0",
+  "description": "DevOps CI/CD Pipeline Demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["devops", "cicd", "docker"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
