@@ -2,7 +2,7 @@
 set -e
 
 APP="webapp-prod"
-IMAGE="jmdthalha/devops-webapp"
+IMAGE="iam-mdthalha/devops-webapp"
 
 echo "🛑 Stopping existing container..."
 docker stop $APP 2>/dev/null || true
